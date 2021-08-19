@@ -21,7 +21,6 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  getwidget: ^2.0.3
   font_awesome_flutter: ^9.1.0
   flutter:
     sdk: flutter
