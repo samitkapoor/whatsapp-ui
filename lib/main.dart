@@ -21,11 +21,11 @@ class Whatsapp extends StatelessWidget {
         length: 4,
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Color.fromRGBO(35, 45, 54, 1),
+            backgroundColor: Color(0xff1F2C34),
             title: Text(
               'WhatsApp',
               style: TextStyle(
-                color: Color.fromRGBO(148, 153, 159, 1),
+                color: Color(0xff7a8a94),
                 fontWeight: FontWeight.w400,
                 fontSize: 20,
               ),
@@ -33,7 +33,7 @@ class Whatsapp extends StatelessWidget {
             actions: [
               Icon(
                 Icons.search_rounded,
-                color: Color.fromRGBO(149, 158, 166, 1),
+                color: Color(0xff7a8a94),
               ),
               SizedBox(
                 width: 10,
@@ -45,9 +45,9 @@ class Whatsapp extends StatelessWidget {
             ],
             bottom: TabBar(
               isScrollable: true,
-              indicatorColor: Color.fromRGBO(17, 154, 142, 1),
-              unselectedLabelColor: Color.fromRGBO(158, 167, 172, 1),
-              labelColor: Colors.teal[400],
+              indicatorColor: Color(0xff04a683),
+              unselectedLabelColor: Color(0xff7a8a94),
+              labelColor: Color(0xff04a683),
               tabs: [
                 Container(
                   child: Tab(
