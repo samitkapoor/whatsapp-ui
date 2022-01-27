@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
 class PopMenuButtonWidget extends StatelessWidget {
-  PopupMenuItem getItem(String message) {
+  PopupMenuItem getItem(String message, BuildContext context) {
     return PopupMenuItem(
       child: Container(
+        width: MediaQuery.of(context).size.width / 3,
         child: Text(
           message,
           style: TextStyle(
@@ -24,12 +25,12 @@ class PopMenuButtonWidget extends StatelessWidget {
       ),
       itemBuilder: (context) {
         return [
-          getItem('New group'),
-          getItem('New broadcast'),
-          getItem('Linked devices'),
-          getItem('Starred messages'),
-          getItem('Payments'),
-          getItem('Settings'),
+          getItem('New group', context),
+          getItem('New broadcast', context),
+          getItem('Linked devices', context),
+          getItem('Starred messages', context),
+          getItem('Payments', context),
+          getItem('Settings', context),
         ];
       },
     );
