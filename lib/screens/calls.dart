@@ -6,7 +6,7 @@ class Calls extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(16, 29, 37, 1),
+      backgroundColor: Color(0xff121B22),
       body: ListView(
         children: Data().callList.map((callData) {
           return Padding(
@@ -71,7 +71,7 @@ class Calls extends StatelessWidget {
         }).toList(),
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Color.fromRGBO(0, 174, 154, 1),
+        backgroundColor: Color(0xff00a884),
         onPressed: () {},
         child: Icon(
           Icons.add_call,

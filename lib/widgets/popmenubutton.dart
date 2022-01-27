@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PopMenuButtonWidget extends StatelessWidget {
-  PopupMenuItem getItem(String message){
+  PopupMenuItem getItem(String message) {
     return PopupMenuItem(
       child: Container(
         child: Text(
@@ -17,10 +17,10 @@ class PopMenuButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return PopupMenuButton(
-      color: Color.fromRGBO(49, 60, 66, 1),
+      color: Color.fromRGBO(35, 50, 57, 1),
       icon: Icon(
         Icons.more_vert,
-        color: Color.fromRGBO(158, 167, 172, 1),
+        color: Color(0xff7a8a94),
       ),
       itemBuilder: (context) {
         return [

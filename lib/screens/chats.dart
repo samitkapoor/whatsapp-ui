@@ -6,7 +6,7 @@ class Chats extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(16, 29, 37, 1),
+      backgroundColor: Color(0xff121B22),
       body: ListView(
         children: [
           ...Data().ChatList.map((chat) {
@@ -68,7 +68,7 @@ class Chats extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: Color.fromRGBO(0, 176, 156, 1),
+        backgroundColor: Color(0xff00a884),
         child: Icon(
           Icons.message,
           color: Color.fromRGBO(252, 255, 253, 1),
